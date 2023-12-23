@@ -4,23 +4,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi2";
 export default function Navbar() {
   return (
     <div className="Navbar">
-      <div
-        class="offcanvas offcanvas-top"
-        tabindex="-1"
-        id="offcanvasTop"
-        aria-labelledby="offcanvasTopLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasTopLabel"></h5>
-          <a
-            type="button"
-            class="btn-close "
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></a>
-        </div>
-        <div class="offcanvas-body "></div>
-      </div>
+      
       <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-lg">
@@ -42,6 +26,25 @@ export default function Navbar() {
                     Home
                   </a>
                 </li>
+
+            {/* dropdown li */}
+
+            <li class="nav-item dropdown">
+          <a class=" dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+         Shop
+          </a>
+          <ul class="dropdown-menu dropdown-menu-light">
+            <li><a class="dropdown-item" href="#">Shop All</a></li>
+            <li><a class="dropdown-item" href="#">Dreams to reality collection</a></li>
+            <li><a class="dropdown-item" href="#">Self Help Products</a></li>
+            <li><a class="dropdown-item" href="#">Merchandise</a></li>
+            <li><a class="dropdown-item" href="#">Bulk Orders</a></li>
+            <li><a class="dropdown-item" href="#">Thoughtful Gifting</a></li>
+          </ul>
+        </li>
+
+
+
                 <li class="nav-item">
                   <a class="nav-link " aria-current="page" href="#">
                     Join Our community
@@ -66,8 +69,10 @@ export default function Navbar() {
             </div>
             <div className="right d-flex justify-content-evenly ">
               <div className="search mx-3">
+              <a class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"> <IoSearchSharp style={{ fontSize: "30", color: "black" }} /></a>
+
+
              
-              <IoSearchSharp style={{ fontSize: "30", color: "black" }} />
                
               </div>
               <div className="cart">
@@ -75,7 +80,31 @@ export default function Navbar() {
               </div>
             </div>
           </div>
+          
         </nav>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+   
+  </div>
+  <div class="offcanvas-body h-50">
+  <div class="input-group mb-3 container h-50 ">
+   
+      <div className="col-6  d-flex mx-auto">
+      <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Search" aria-label="Serch" aria-describedby="basic-addon2"/>
+    <button class="btn btn-outline-secondary" type="button"><IoSearchSharp style={{ fontSize: "40", color: "black" }} /></button>
+  <div class="input-group-append">
+  </div>
+</div>
+
+    <button type="button" class="btn-close ms-3 mt-3  " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    
+    </div>
+ 
+</div>
+  </div>
+</div>
+       
       </header>
     </div>
   );
