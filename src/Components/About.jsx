@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import "./About.css";
 import Footer from "./Footer";
@@ -92,4 +93,14 @@ export default function About() {
       <Footer></Footer>
     </div>
   );
+=======
+import React from 'react'
+
+export default function About() {
+  return (
+    <div>
+      
+    </div>
+  )
+>>>>>>> 6ff1028360d70354ad80d4f8a4b541e8d6816212
 }
