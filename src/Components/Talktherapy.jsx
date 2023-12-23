@@ -1,19 +1,19 @@
 import React from "react";
 import './Talktherapy.css'
-export default function Talk_Therapy() {
+export default function Talktherapy() {
   return (
-    <div className="Talk_Therapy">
-      <h1 className="text-center">Seek Experts Help</h1>
-      <h6 className="text-center">HumanHood x The Mood Space</h6>
+    <div className="Talktherapy">
+      <h1 className="text-center  bg-br mb-3 mt-4">Seek Experts Help</h1>
+      <h6 className="text-center bg-br">HumanHood x The Mood Space</h6>
 
-      <section className="About_mood container">
+      <section className="About_mood container-lg">
         <div className="row">
-          <div className="col-md-6">
-            <img src="/media/Mood.webp" alt=""  className="image-fluid" style={{width:"500px",height:"640px"}}/>
+          <div className="col-md-6 ">
+            <img src="/media/Mood.webp" alt=""  className="img-fluid  d-block  m-auto border-1 p-2 " />
           </div>
-          <div className="col-md-6 mt-5">
-            <h4 className="my-5">About Mood Space</h4>
-            <p className="mb-5">
+          <div className="col-md-6 mt-5 pt-md-5 ">
+            <h4 className=" bg-br">About Mood Space</h4>
+            <p className="  bg-br" >
               The Mood Space is an online talk-therapy platform providing
               comprehensive mental health services to individuals and
               corporates, in a cost-effective, accessible, and confidential
@@ -26,13 +26,13 @@ export default function Talk_Therapy() {
         </div>
       </section>
 
-      <section className="know_more container-fluid py-5">
-        <h1 className="text-center">Know More</h1>
+      <section className="know_more  container-fluid ">
+        <h1 className="text-center bg-br">Know More</h1>
         <div className="container row mx-auto">
 
           <div className="col-md-4">
             <div className="card border-0 rounded-0 my-4">
-            <h6>Humanhood x The Mood Space</h6>
+            <h6 className="bg-br">Humanhood x The Mood Space</h6>
             <p>
               This collaboration is an attempt to strengthen our vision of a
               better well-being for the humans of our community. For all those
@@ -44,8 +44,8 @@ export default function Talk_Therapy() {
 
           <div className="col-md-4">
             <div className="card border-0 rounded-0 my-4">
-            <h6>About Therapy Sessions</h6>
-            <p>
+            <h6 className="bg-br">About Therapy Sessions</h6>
+            <p className="bg-br">
               Our therapy sessions are customised to help individuals address
               their mental health concerns and improve their emotional
               well-being using a trauma-informed and queer as well as a
@@ -71,7 +71,7 @@ export default function Talk_Therapy() {
 
         </div>
 
-       <button href="" className="btn button border-0 rounded-0 text-center">Come, let’s change the way the world looks at mental health and build a generation that sees no stigma!</button>
+       <button  href="" className="btn m-auto d-block ">Come, let’s change the way the world looks at mental health and build a generation that sees no stigma!</button>
 
       </section>
     </div>

@@ -85,7 +85,7 @@ function Footer() {
               <img
                 src="/media/logo.avif"
                 alt=""
-                className="img-fluid mx-auto"
+                className="img-fluid m-auto d-block  mb-2"
                 
               />
             </div>
@@ -147,21 +147,22 @@ function Footer() {
           </div>
         </div>
 
-        <div className="container-lg d-none d-md-block d-sm-none d-lg-block ">
-          <div className="row ">
-            <div className="col-md-9">
+        <div className="container-lg d-none d-md-block d-sm-none d-lg-block  ">
+          <div className="row  d-flex justify-content-between  ">
+            <div className="col-md-4  ">
               <p>Subscribe to our emails</p>
-              <div class="form-outline mb-4">
-              <input type="email" placeholder="Email" width={200} />
-            </div>
+              <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
+   
+  </div>
 
             </div>
-            <div className="col-md-3 mx-auto">
-              <LiaFacebook fontSize={"40px"} color="#1dbfc1" />
-              <LiaInstagram fontSize={"40px"} color="#1dbfc1" />
-              <LiaLinkedin fontSize={"40px"} color="#1dbfc1" />
-              <LiaYoutube fontSize={"40px"} color="#1dbfc1" />
-              <LiaTwitter fontSize={"40px"} color="#1dbfc1" />
+            <div className="col-md-3">
+              <LiaFacebook fontSize={"40px"} color="#0f0f0f" />
+              <LiaInstagram fontSize={"40px"} color="#0f0f0f" />
+              <LiaLinkedin fontSize={"40px"} color="#0f0f0f" />
+             
             </div>
           </div>
         </div>
@@ -170,16 +171,15 @@ function Footer() {
           <div className="row ">
             <div className="col-md-9">
               <p className="p-0 m-0 text-center">
-                Copyright © 2023 Emperia 1900
+                Copyright © 2023 Humanhood Official
               </p>
               <p className="text-center">Powered by...........</p>
             </div>
             <div className="col-md-3 mx-auto text-center">
-              <LiaFacebook fontSize={"40px"} color="#1dbfc1" />
-              <LiaInstagram fontSize={"40px"} color="#1dbfc1" />
-              <LiaLinkedin fontSize={"40px"} color="#1dbfc1" />
-              <LiaYoutube fontSize={"40px"} color="#1dbfc1" />
-              <LiaTwitter fontSize={"40px"} color="#1dbfc1" />
+              <LiaFacebook fontSize={"40px"} color="#0f0f0f" />
+              <LiaInstagram fontSize={"40px"} color="#0f0f0f" />
+              <LiaLinkedin fontSize={"40px"} color="#0f0f0f" />
+             
             </div>
           </div>
         </div>
