@@ -1,4 +1,8 @@
 .offcanvas-body{
     z-index: 100;
-    background-color: aqua;
+    background-color: red;
+}
+.nav-item {
+
+   font-weight: lighter;
 }
