@@ -1,5 +1,5 @@
 import React from "react";
-import './Talk_Therapy.css'
+import './Talktherapy.css'
 export default function Talk_Therapy() {
   return (
     <div className="Talk_Therapy">
