@@ -9,7 +9,7 @@ export default function Talktherapy() {
       <section className="About_mood container-lg">
         <div className="row">
           <div className="col-md-6 ">
-            <img src="/media/Mood.webp" alt=""  className="img-fluid  d-block  m-auto border-1 p-2 " />
+            <img src="/img/Mood.webp" alt=""  className="img-fluid  d-block  m-auto border-1 p-2 " />
           </div>
           <div className="col-md-6 mt-5 pt-md-5 ">
             <h4 className=" bg-br">About Mood Space</h4>

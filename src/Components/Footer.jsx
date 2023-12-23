@@ -19,7 +19,7 @@ function Footer() {
           <div className="row">
 
             <div className="col-md-4 . ">
-              <img src="/media/logo.avif" alt="" />
+              <img src="/img/logo.avif" alt="" />
             </div>
 
             <div className="col-md-4 text-left">
@@ -83,7 +83,7 @@ function Footer() {
             <div className="col-md-4 ">
 
               <img
-                src="/media/logo.avif"
+                src="/img/logo.avif"
                 alt=""
                 className="img-fluid m-auto d-block  mb-2"
                 

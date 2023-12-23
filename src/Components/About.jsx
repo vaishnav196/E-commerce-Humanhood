@@ -26,7 +26,7 @@ export default function About() {
             <div className="row">
               <div class="card col-md-6 rounded-0 m-0 p-1 border-0">
                 <img
-                  src="/media/Founder1.webp"
+                  src="/img/Founder1.webp"
                   class="card-img-top img-fluid"
                  
                 />
@@ -36,7 +36,7 @@ export default function About() {
               </div>
               <div class="card col-md-6 rounded-0 border-0 m-0 p-1">
                 <img
-                  src="/media/Founder2.webp"
+                  src="/img/Founder2.webp"
                   class="card-img-top img-fluid"
                  
                 />
@@ -63,7 +63,7 @@ export default function About() {
           
           <div className="row">
             <div className="col-md-6 col-lg-6">
-              <img src="/media/Thoughts.webp" alt="" className="img-fluid" />
+              <img src="/img/Thoughts.webp" alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 col-md-6">
               <p className="text">
