@@ -1,11 +1,11 @@
 ul li a{
     text-decoration:none;
-    color: grey;
+    color: rgb(70, 70, 70);
 }
 
 .Footer a{
     text-decoration:none;
-    color: grey;
+    color: rgb(31, 29, 29);
 }
 
 ul li{
@@ -13,14 +13,15 @@ ul li{
     padding-left: 0px;
 }
 
-ul li a:hover{
+ul li :hover{
     color: rgb(40, 36, 36);
-    text-decoration: underline;
+   border-bottom: 2px solid black;
+  
 }
 
 .Footer a:hover{
     color: rgb(40, 36, 36);
-    text-decoration: underline;
+   
 }
 
 #h3{

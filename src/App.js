@@ -2,7 +2,7 @@ import react from 'react'
 import './App.css';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Talk_Therapy from './Components/Talktherap';
+import Talktherapy from './Components/Talktherapy';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Navbar from './Components/Navbar';
@@ -12,7 +12,8 @@ function App() {
 
 
       <Navbar/>
-
+<Talktherapy/>
+<Footer/>
   </div>
 
   );
