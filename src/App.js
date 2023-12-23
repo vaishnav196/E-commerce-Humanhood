@@ -9,12 +9,12 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <About></About>
-=======
+
+
       <Navbar/>
->>>>>>> 6ff1028360d70354ad80d4f8a4b541e8d6816212
-    </div>
+
+  </div>
+
   );
 }
 
