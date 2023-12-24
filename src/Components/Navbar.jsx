@@ -1,24 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoSearchSharp } from "react-icons/io5";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
+import { FaArrowRight } from "react-icons/fa";
 export default function Navbar() {
+  const[arrow,setarrow]=useState(<IoIosArrowDown/>)
+  const[open,setopen]=useState(false);
   return (
     <div className="Navbar">
       
       <header>
-
+    
 {/* mobile menu */}
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           {/* right off canvas code */}
         <div class="offcanvas offcanvas-start d-md-block  d-lg-none d-sm-block d-xsm-block " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button></h5>
+    
   </div>
   <div class="offcanvas-body">
-    <p>Try scrolling the rest of the page to see this option in action.</p>
+    <ul className="list-unstyled mx-2 ">
+      <li className="nav-item "><a href="" className="nav-link  ">Home</a></li>
+      <li className="nav-item d-flex justify-content-between "><a href="" className="nav-link  ">Shop </a><FaArrowRight /></li>
+      <li className="nav-item"><a href="" className="nav-link">Join Our Community</a></li>
+      <li className="nav-item"><a href="" className="nav-link">Blogs</a></li>
+      <li className="nav-item"><a href="" className="nav-link">Talk therapy</a></li>
+      <li className="nav-item"><a href="" className="nav-link">About Us</a></li>
+    </ul>
   </div>
 </div>
           <div class="container-lg">
@@ -56,16 +68,42 @@ export default function Navbar() {
             {/* dropdown li */}
 
             <li class="nav-item dropdown">
-          <a class=" dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false">
-         Shop
+          <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false"  onClick={()=>{setarrow(<IoIosArrowUp/>)}} >
+         Shop {arrow}
           </a>
           <ul class="dropdown-menu dropdown-menu-light">
             <li><a class="dropdown-item" href="#">Shop All</a></li>
             <li><a class="dropdown-item" href="#">Dreams to reality collection</a></li>
             <li><a class="dropdown-item" href="#">Self Help Products</a></li>
-            <li><a class="dropdown-item" href="#">Merchandise</a></li>
+            <li className="nav-item dropdown "><a class="dropdown-item  toggle nav-link mx-auto" href="" data-bs-toggle="dropdown">Merchandise <IoIosArrowDown/></a>
+            
+            <ul className="dropdown-menu dropdown-menu-secondary">
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+            </ul>
+            
+            
+            </li>
             <li><a class="dropdown-item" href="#">Bulk Orders</a></li>
-            <li><a class="dropdown-item" href="#">Thoughtful Gifting</a></li>
+            <li><a class="dropdown-item nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false" >Thoughtful Gifting</a>
+
+            <ul className="dropdown-menu dropdown-menu-light">
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+              <li><a href="" class="dropdown-item"></a></li>
+            </ul>
+
+
+            </li>
           </ul>
         </li>
 
