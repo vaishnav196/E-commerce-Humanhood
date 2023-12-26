@@ -9,7 +9,8 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 // import Talktherapy from "./Components/Talktherapy";
 import Footer from "./Components/Footer";
-import JoinCommunity from "./Components/JoinCommunity";
+import Sliders from './Components/Sliders';
+// import JoinCommunity from "./Components/JoinCommunity";
 
 
 
@@ -17,12 +18,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <JoinCommunity/>
-      <About />
+    
+      {/* <About /> */}
       {/* 
       <Home/>
   
       <Talktherapy /> */}
+      <Sliders/>
       <Footer />
     </div>
   );
