@@ -27,7 +27,7 @@ export default function About() {
               <div class="card col-md-6 rounded-0 m-0 p-1 border-0">
                 <img
                   src="/img/Founder1.webp"
-                  class="card-img-top img-fluid"
+                  class="card-img-top img-fluid h-100 "
                  
                 />
                 <div class="card-body m-0">
