@@ -7,6 +7,7 @@ export default function Sliders() {
     const settings = {
         dots: true,
         infinite: true,
+        autoplay:true,
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -52,7 +53,7 @@ export default function Sliders() {
           <div
             style={{
               width: "30px",
-              color: "blue",
+           
               color:"black"
              
             }}
@@ -66,13 +67,10 @@ export default function Sliders() {
   return (
     <div>
      
-      <div className="container-fluid-lg  ">
-        <div className="row">
-          <div className="col-md-12 col-lg-12 col-sm-12">
-
-        <Slider {...settings}>
+    <section>
+       <Slider {...settings}  className='container'>
           <div>
-            <img src="img/carousel1main.png" alt="" className='img-fluid' />
+            <img src="img/carousel1main.png" alt="" className='img-fluid'  style={{width:'100rem'}}/>
           </div>
           <div>
           <img src="img/carousel2.png" alt="" className='img-fluid' />
@@ -85,9 +83,8 @@ export default function Sliders() {
           </div>
           
         </Slider>
-          </div>
-        </div>
-      </div>
+    
+    </section>
 
       {/* mobile screen */}
     
