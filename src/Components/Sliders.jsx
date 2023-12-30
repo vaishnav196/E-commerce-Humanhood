@@ -68,21 +68,23 @@ export default function Sliders() {
     <div>
      
     <section>
+      
        <Slider {...settings}  className='container'>
           <div>
-            <img src="img/carousel1main.png" alt="" className='img-fluid'  style={{width:'100rem'}}/>
+            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid'  style={{width:'100rem'}}/></a>
           </div>
           <div>
-          <img src="img/carousel2.png" alt="" className='img-fluid' />
+          <a href=""><img src="img/carousel2.png" alt="" className='img-fluid' /></a>
           </div>
           <div>
-          <img src="img/carousel3.png" alt="" className='img-fluid' />
+          <a href=""><img src="img/carousel3.png" alt="" className='img-fluid' /></a>
           </div>
           <div>
-          <img src="img/carousel4mainpng.png" alt="" className='img-fluid' />
+          <a href=""><img src="img/carousel4mainpng.png" alt="" className='img-fluid' /></a>
           </div>
           
         </Slider>
+        <hr />
     
     </section>
 
