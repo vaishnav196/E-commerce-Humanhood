@@ -54,7 +54,7 @@ export default function Sliders() {
               width: "30px",
               color: "blue",
               color:"black"
-              // border: "1px blue solid"
+             
             }}
           >
             {i + 1}
@@ -66,13 +66,13 @@ export default function Sliders() {
   return (
     <div>
      
-      <div className="container-fluid p-0 ">
+      <div className="container-fluid-lg  ">
         <div className="row">
-          <div className="col-12">
+          <div className="col-md-12 col-lg-12 col-sm-12">
 
         <Slider {...settings}>
           <div>
-            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid' /></a>
+            <img src="img/carousel1main.png" alt="" className='img-fluid' />
           </div>
           <div>
           <img src="img/carousel2.png" alt="" className='img-fluid' />

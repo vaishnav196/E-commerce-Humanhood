@@ -3,8 +3,8 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <div className="container-lg ">
-        <div className="row bg-danger">
+      <div className="container-fluid-lg ">
+        <div className="row ">
           <div className="col-md-6 p-5 h-0 ">
             <img src="img/affirm.webp" alt="" className="img-fluid p-5" />
           </div>
