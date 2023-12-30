@@ -4,7 +4,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import'bootstrap/dist/js/bootstrap.min.js';
 import "./App.css";
-// import Home from "./Components/Home";
+import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 // import About from "./Components/About";
 // import Talktherapy from "./Components/Talktherapy";
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Sliders/>
-{/* <Home/> */}
+<Home/>
      
   
       <Footer />
