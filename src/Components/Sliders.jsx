@@ -70,18 +70,18 @@ export default function Sliders() {
     
 
       
-       <Slider {...settings}  className=' p-0' >
+       <Slider {...settings}  className='  container-fluid p-0'  >
           <div>
-            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid '  /></a>
+            <a href=""><img src="img/c1.png" alt="" className='img-fluid '   /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel2.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/c2.png" alt="" className='img-fluid' /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel3.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/c3.png" alt="" className='img-fluid' /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel4mainpng.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/c4.png" alt="" className='img-fluid' /></a>
           </div>
           
         </Slider>
