@@ -20,7 +20,7 @@ export default function Home() {
               <p>Shipping calculated at checkout.</p>
               <p>Quantity</p>
 
-              <div class="btn-group" role="group" aria-label="Basic example">
+              <div class="btn-group btn-sm" role="group" aria-label="Basic example">
                 <button
                   type="button"
                   class="btn  me-2 btn-outline-light text-black border-1 border-black  "
