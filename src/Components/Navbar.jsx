@@ -149,41 +149,7 @@ export default function Navbar() {
                         Merchandise <IoIosArrowDown />
                       </a>
 
-                      <ul
-                        className="dropdown-menu dropdown-menu-secondary"
-                        id="#merc"
-                      >
-                        <li>
-                          <a href="" class="dropdown-item">
-                            Note Books
-                          </a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">
-                            Tote Bags
-                          </a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">
-                            Candles
-                          </a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">
-                            Wall Arts
-                          </a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">
-                            Sweat Shirts
-                          </a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">
-                            Shop All
-                          </a>
-                        </li>
-                      </ul>
+                     
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">
@@ -200,29 +166,7 @@ export default function Navbar() {
                         Thoughtful Gifting
                       </a>
 
-                      <ul className="dropdown-menu dropdown-menu-light">
-                        <li>
-                          <a href="" class="dropdown-item">Gifts for Positivity</a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">Gifts for Smashing Goals</a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">Gifts For Productivity</a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">HumanHood Gift Card</a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">Gift under 500</a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">Gift between 500 and 1000</a>
-                        </li>
-                        <li>
-                          <a href="" class="dropdown-item">Gift between 1000 and 1500</a>
-                        </li>
-                      </ul>
+                     
                     </li>
                   </ul>
                 </li>
