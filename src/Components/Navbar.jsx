@@ -89,7 +89,7 @@ export default function Navbar() {
                 style={{ width: "255px" }}
               />
             </a>
-            <a class="navbar-brand me-auto" href="#">
+            <a class="navbar-brand me-auto" href="">
               <img
                 src="img/hhlogo.avif"
                 alt="Logo here"
