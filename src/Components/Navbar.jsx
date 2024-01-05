@@ -43,7 +43,6 @@ export default function Navbar() {
                   <a href="" className="nav-link  ">
                     Shop{" "}
                   </a>
-                  
                 </li>
                 <li className="nav-item">
                   <a href="" className="nav-link">
@@ -68,9 +67,7 @@ export default function Navbar() {
               </ul>
             </div>
           </div>
-{/* off canvas menu side */}
-
-
+          {/* off canvas menu side */}
 
           <div class="container-lg">
             <a
@@ -100,7 +97,7 @@ export default function Navbar() {
                 style={{ width: "155px" }}
               />
             </a>
-         
+
             <div class="collapse navbar-collapse d-md-none me" id="navbarNav">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
@@ -138,16 +135,34 @@ export default function Navbar() {
                         Self Help Products
                       </a>
                     </li>
-                    <li className=" dropdown">
+                    <li className=" ">
                       <a
-                        class=" dropdown toggle nav-link mx-auto"
-                        href="#"
+                        class="  dropdown "
+                        type="button"
                         data-bs-toggle="dropdown"
+                        aria-expanded="false"
                       >
-                        Merchandise <IoIosArrowDown />
+                        Merchandise
+                        <IoIosArrowDown />
                       </a>
 
-                     
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            Action
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            Another action
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            Something else here
+                          </a>
+                        </li>
+                      </ul>
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">
@@ -163,8 +178,6 @@ export default function Navbar() {
                       >
                         Thoughtful Gifting
                       </a>
-
-                     
                     </li>
                   </ul>
                 </li>
