@@ -46,7 +46,7 @@ export default function Sliders() {
               padding: "10px"
             }}
           >
-            <ul style={{ margin: "0px" }}>  {dots} </ul>
+            <ul style={{ margin: "0px" }}> &lt; {dots} &gt;</ul>
           </div>
         ),
         customPaging: i => (
