@@ -35,11 +35,11 @@ export default function Navbar() {
             <div class="offcanvas-body">
               <ul className="list-unstyled mx-2 ">
                 <li className="nav-item ">
-                  <a href="" className="nav-link  ">
+                  <a href="" className="nav-link">
                     Home
                   </a>
                 </li>
-                <li className="nav-item d-flex justify-content-between ">
+                <li className="nav-item d-flex justify-content-between">
                   <a href="" className="nav-link  ">
                     Shop{" "}
                   </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
 
             <div class="collapse navbar-collapse d-md-none me" id="navbarNav">
               <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link active" aria-current="page" href="#">
                     Home
                   </a>
@@ -108,7 +108,7 @@ export default function Navbar() {
 
                 {/* dropdown li */}
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown mx-2">
                   <a
                     class="nav-link dropdown "
                     data-bs-toggle="dropdown"
@@ -182,22 +182,22 @@ export default function Navbar() {
                   </ul>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link " aria-current="page" href="#">
                     Join Our community
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link" href="#">
                     Blogs
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link" href="#">
                     Talk Therapy
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link" href="">
                     About us
                   </a>
