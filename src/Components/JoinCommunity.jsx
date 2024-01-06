@@ -29,7 +29,7 @@ export default function JoinCommunity() {
         </div>
 
         <div className="row">
-          <h1 className='text-center mt-5 mb-4'>Past Activities</h1>
+          <h1 className='text-center mt-5 mb-4 text-906'>Past Activities</h1>
           <div className="col-md-4 col-12">
           <img src="img/bookexch.webp"class="img-fluid w-75 d-block mt-2 m-auto" alt="..."/>
 
