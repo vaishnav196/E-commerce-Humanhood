@@ -100,7 +100,7 @@ export default function Navbar() {
 
             <div class="collapse navbar-collapse d-md-none me" id="navbarNav">
               <ul class="navbar-nav mx-auto">
-                <li class="nav-item mx-2">
+                <li class="nav-item ">
                   <a class="nav-link active" aria-current="page" href="#">
                     Home
                   </a>
@@ -108,7 +108,7 @@ export default function Navbar() {
 
                 {/* dropdown li */}
 
-                <li class="nav-item dropdown mx-2">
+                <li class="nav-item dropdown ">
                   <a
                     class="nav-link dropdown "
                     data-bs-toggle="dropdown"
@@ -182,22 +182,22 @@ export default function Navbar() {
                   </ul>
                 </li>
 
-                <li class="nav-item mx-2">
+                <li class="nav-item ">
                   <a class="nav-link " aria-current="page" href="#">
                     Join Our community
                   </a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item ">
                   <a class="nav-link" href="#">
                     Blogs
                   </a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item ">
                   <a class="nav-link" href="#">
                     Talk Therapy
                   </a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item ">
                   <a class="nav-link" href="">
                     About us
                   </a>

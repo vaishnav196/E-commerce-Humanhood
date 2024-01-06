@@ -25,9 +25,9 @@ export default function Sliders() {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 2,
-              initialSlide: 2
+              // initialSlide: 2
             }
           },
           {
@@ -46,7 +46,7 @@ export default function Sliders() {
               padding: "10px"
             }}
           >
-            <ul style={{ margin: "0px" }}> {dots} </ul>
+            <ul style={{ margin: "0px" }}>  {dots} </ul>
           </div>
         ),
         customPaging: i => (
