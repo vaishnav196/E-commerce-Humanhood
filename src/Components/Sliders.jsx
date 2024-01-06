@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import Slider from "react-slick";
 
 
@@ -46,7 +47,7 @@ export default function Sliders() {
               padding: "10px"
             }}
           >
-            <ul style={{ margin: "0px" }}> &lt; {dots} &gt;</ul>
+            <ul style={{ margin: "0px"}}>  <a href="" className='text-black'><IoIosArrowBack /></a> {dots} <a href="" className='text-black'><IoIosArrowForward /></a></ul>
           </div>
         ),
         customPaging: i => (
@@ -72,16 +73,16 @@ export default function Sliders() {
       
        <Slider {...settings}  className='  container p-0 bg-danger'  >
           <div>
-            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid '   /></a>
+            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid '  style={{height:'590px'}} /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel2.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/carousel2.png" alt="" className='img-fluid' style={{height:'590px'}} /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel3.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/carousel3.png" alt="" className='img-fluid' style={{height:'590px'}} /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel4mainpng.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/carousel4mainpng.png" alt="" className='img-fluid'  style={{height:'590px'}} /></a>
           </div>
           
         </Slider>
