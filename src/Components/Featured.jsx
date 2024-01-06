@@ -73,7 +73,7 @@ export default class Featured extends Component {
           </div>
         </Slider>
         </div>
-        <div className=" py-4 mb-5">
+        {/* <div className=" ">
           <a href="/">
             <img
               src="images/hero_section_img3.webp"
@@ -81,7 +81,7 @@ export default class Featured extends Component {
               className="img-fluid"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     );
   }

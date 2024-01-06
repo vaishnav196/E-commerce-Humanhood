@@ -5,14 +5,10 @@ import Featured from "./Featured";
 import Blog from "./Blog";
 
 export default function Home() {
-
-
-
   return (
     <div>
-   
-              <Sliders />
-          
+      <Sliders />
+
       <br />
 
       <br />
@@ -55,20 +51,20 @@ export default function Home() {
         </div>
       </section>
 
-      <Featured/>
+      <Featured />
 
-      <section>
+      <section className="">
         <div className="container">
           <div className="row">
-            <div className="col-md-8 col d-block m-auto">
-              <a href=""><img src="img/moodspace.webp" alt="" className="img-fluid" /></a>
+            <div className="col-md-8 col  d-block m-auto">
+              <a href="">
+                <img src="img/moodspace.webp" alt="" className="img-fluid" />
+              </a>
             </div>
           </div>
         </div>
       </section>
-
-
-
+<br /><br />
       <section className="hamper-bg mb-4">
         <div className="container py-5 px-5">
           <h1 className="text-center text-906 mb-4">
@@ -143,16 +139,11 @@ export default function Home() {
         </div>
       </section>
 
-
       <section className="Giftcard-bg mb-4 text-906 fs-sand">
         <div className="container py-5 ">
           <div className="row ">
             <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
-              <img
-                src="img/giftcard.webp"
-                alt=""
-                className="img-fluid"
-              />
+              <img src="img/giftcard.webp" alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6  col-md-6 px-lg-5 ">
               <h1 className="mb-4">Humanhood Gift Card</h1>
@@ -225,7 +216,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-<Blog/>
+      <Blog />
     </div>
   );
 }

@@ -62,8 +62,8 @@ export default function About() {
           <p className="heading fw-light  text-black fs-1">Thoughts Become Things</p>
           
           <div className="row">
-            <div className="col-md-6 col-lg-6 w-50   ">
-              <img src="/img/Thoughts.webp" alt="" className="img-fluid  w-75  d-block ms-auto h-100" />
+            <div className="col-md-6 col-lg-6 h-25 ">
+              <img src="/img/Thoughts.webp" alt="" className="img-fluid object-fit-md-contain   d-block ms-auto h-100" />
             </div>
             <div className="col-lg-6 col-md-6">
               <p className="text lh-lg  text-black ">
