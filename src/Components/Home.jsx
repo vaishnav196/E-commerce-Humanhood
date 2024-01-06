@@ -61,6 +61,8 @@ export default function Home() {
         </div>
       </section>
 
+      <Featured/>
+
       <section>
         <div className="container">
           <div className="row">
