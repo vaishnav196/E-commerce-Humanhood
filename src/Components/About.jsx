@@ -66,7 +66,7 @@ export default function About() {
               <img src="/img/Thoughts.webp" alt="" className="img-fluid  w-75  d-block ms-auto h-100" />
             </div>
             <div className="col-lg-6 col-md-6">
-              <p className="text lh-lg  text-black">
+              <p className="text lh-lg  text-black ">
                 Humanhood is a brainchild of Sakshi & Unnati. Right from
                 recognising problems, outlining creative solutions, designing an
                 aesthetic and appealing tool, pushing it to production to making
