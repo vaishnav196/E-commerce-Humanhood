@@ -1,19 +1,20 @@
 import React from "react";
-
+import Sliders from "./Sliders";
 export default function Home() {
   return (
     <div>
       <section>
-        <div className="container">
+        <div className="container px-md-5">
+          <Sliders/>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 p-md-5">
               <img
                 src="img/dateplan.webp"
                 alt=""
-                className="img-fluid w-75 ms-sm-auto m-sm-auto d-block  mb-3"
+                className="img-fluid  ms-sm-auto m-sm-auto d-block  mb-3"
               />
             </div>
-            <div className="col-md-5">
+            <div className="col-md-6 p-md-5">
               <p>HUMANHOOD OFFICIA</p>
               <h1>2024 Dated Planner - Garden of Dreams</h1>
               <p>Regular priceRs. 1,499.00 Sale priceRs. 1,125.00</p>
@@ -56,7 +57,7 @@ export default function Home() {
               <img
                 src="img/affirm.webp"
                 alt=""
-                className="img-fluid d-block  ms-auto w-75 "
+                className="img-fluid d-block  ms-auto w-75   "
               />
             </div>
 

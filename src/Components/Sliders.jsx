@@ -70,7 +70,7 @@ export default function Sliders() {
     
 
       
-       <Slider {...settings}  className='  container-fluid p-0'  >
+       <Slider {...settings}  className='  container p-0'  >
           <div>
             <a href=""><img src="img/c1.png" alt="" className='img-fluid '   /></a>
           </div>
