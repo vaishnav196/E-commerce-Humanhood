@@ -1,5 +1,8 @@
 import React from "react";
 import Sliders from "./Sliders";
+import Testimonials from "./Testimonials";
+import Featured from "./Featured";
+import Blog from "./Blog";
 
 export default function Home() {
 
@@ -226,7 +229,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+<Blog/>
     </div>
   );
 }
