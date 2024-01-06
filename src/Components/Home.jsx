@@ -10,15 +10,9 @@ export default function Home() {
 
   return (
     <div>
-      <section>
-        <div className="container">
-          <div className="row">
-            <div className="col">
+   
               <Sliders />
-            </div>
-          </div>
-        </div>
-      </section>
+          
       <br />
 
       <br />

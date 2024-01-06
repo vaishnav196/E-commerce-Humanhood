@@ -26,7 +26,7 @@ export default function Sliders() {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 2,
               // initialSlide: 2
             }
@@ -42,7 +42,7 @@ export default function Sliders() {
         appendDots: dots => (
           <div
             style={{
-              backgroundColor: "yellow",
+              backgroundColor: "white",
               borderRadius: "0px",
               padding: "10px"
             }}
@@ -69,23 +69,31 @@ export default function Sliders() {
     <div>
      
     
-
-      
-       <Slider {...settings}  className='  container p-0 bg-danger'  >
+<section className=' bg-danger'>
+  <div className="container-fluid " >
+    <div className="row">
+      <div className="col">
+      <Slider {...settings}  className='  '  >
           <div>
-            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid '  style={{height:'590px'}} /></a>
+            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid  w-100 p-0'  style={{height:'590px'}} /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel2.png" alt="" className='img-fluid' style={{height:'590px'}} /></a>
+          <a href=""><img src="img/carousel2.png" alt="" className='img-fluid w-100' style={{height:'590px'}} /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel3.png" alt="" className='img-fluid' style={{height:'590px'}} /></a>
+          <a href=""><img src="img/carousel3.png" alt="" className='img-fluid w-100' style={{height:'590px'}} /></a>
           </div>
           <div>
-          <a href=""><img src="img/carousel4mainpng.png" alt="" className='img-fluid'  style={{height:'590px'}} /></a>
+          <a href=""><img src="img/carousel4mainpng.png" alt="" className='img-fluid w-100 '  style={{height:'590px'}} /></a>
           </div>
           
         </Slider>
+      </div>
+    </div>
+  </div>
+</section>
+      
+      
      
 
       {/* mobile screen */}
