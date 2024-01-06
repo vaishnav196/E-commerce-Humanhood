@@ -9,7 +9,7 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Talktherapy from "./Components/Talktherapy";
 import Footer from "./Components/Footer";
-import Sliders from "./Components/Sliders";
+// import Sliders from "./Components/Sliders";
 import JoinCommunity from "./Components/JoinCommunity";
 import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
 import Blog from './Components/Blog';
