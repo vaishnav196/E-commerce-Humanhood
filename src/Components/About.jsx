@@ -8,11 +8,11 @@ export default function About() {
 
           <h1 className=" heading text-center fw-light fs-1 ">Our Purpose</h1>
 
-          <p className=" text text-center">
+          <p className=" txt text-center">
             Our Vision - To create a positive ecosystem where every energy
             exchanged is oriented towards a better well-being.
           </p>
-          <p className=" text text-center">
+          <p className=" txt text-center">
             Our Mission - To create simple tools that simplify life and empower
             growth, lifestyle & wellness.
           </p>

@@ -1,8 +1,8 @@
-
 *{
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -18,6 +18,13 @@
     border-radius: 0;
     color: white;
     padding: 15px;
+}
+
+/* button */
+.button{
+  color: white;
+  background-color: #90604c; 
+  text-decoration: none;
 }
 
 .bg-906:hover{

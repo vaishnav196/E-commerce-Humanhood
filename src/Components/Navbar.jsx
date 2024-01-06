@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [arrow, setarrow] = useState(<IoIosArrowDown />);
   const [open, setopen] = useState(false);
@@ -35,9 +36,9 @@ export default function Navbar() {
             <div class="offcanvas-body">
               <ul className="list-unstyled mx-2 ">
                 <li className="nav-item ">
-                  <a href="" className="nav-link">
+                  <Link to="/" className="nav-link">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item d-flex justify-content-between">
                   <a href="" className="nav-link  ">
@@ -45,24 +46,24 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="" className="nav-link">
+                  <Link to="JoinCommunity" className="nav-link">
                     Join Our Community
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="" className="nav-link">
+                  <Link to="Blog" className="nav-link">
                     Blogs
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="" className="nav-link">
+                  <Link to="Talktherapy" className="nav-link">
                     Talk therapy
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="" className="nav-link">
+                  <Link to="About" className="nav-link">
                     About Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -101,9 +102,9 @@ export default function Navbar() {
             <div class="collapse navbar-collapse d-md-none me" id="navbarNav">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item ">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <Link class="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
 
                 {/* dropdown li */}
@@ -183,24 +184,24 @@ export default function Navbar() {
                 </li>
 
                 <li class="nav-item ">
-                  <a class="nav-link " aria-current="page" href="#">
+                  <Link class="nav-link " aria-current="page" to="JoinCommunity">
                     Join Our community
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="Blog">
                     Blogs
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="Talktherapy">
                     Talk Therapy
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="">
+                  <Link class="nav-link" to="About">
                     About us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
