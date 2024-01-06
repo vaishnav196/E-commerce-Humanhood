@@ -41,8 +41,8 @@ export default function Sliders() {
         appendDots: dots => (
           <div
             style={{
-              backgroundColor: "white",
-              borderRadius: "10px",
+              backgroundColor: "yellow",
+              borderRadius: "0px",
               padding: "10px"
             }}
           >
@@ -52,8 +52,8 @@ export default function Sliders() {
         customPaging: i => (
           <div
             style={{
-              width: "30px",
-           
+              width: "0px",
+             
               color:"black"
              
             }}
@@ -70,18 +70,18 @@ export default function Sliders() {
     
 
       
-       <Slider {...settings}  className='  container p-0'  >
+       <Slider {...settings}  className='  container p-0 bg-danger'  >
           <div>
-            <a href=""><img src="img/c1.png" alt="" className='img-fluid '   /></a>
+            <a href=""><img src="img/carousel1main.png" alt="" className='img-fluid '   /></a>
           </div>
           <div>
-          <a href=""><img src="img/c2.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/carousel2.png" alt="" className='img-fluid' /></a>
           </div>
           <div>
-          <a href=""><img src="img/c3.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/carousel3.png" alt="" className='img-fluid' /></a>
           </div>
           <div>
-          <a href=""><img src="img/c4.png" alt="" className='img-fluid' /></a>
+          <a href=""><img src="img/carousel4mainpng.png" alt="" className='img-fluid' /></a>
           </div>
           
         </Slider>

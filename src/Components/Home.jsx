@@ -1,81 +1,66 @@
 import React from "react";
 import Sliders from "./Sliders";
+
 export default function Home() {
   return (
     <div>
-      <section>
-        <div className="container px-md-5">
-          <Sliders/>
-          <div className="row">
-            <div className="col-md-6 p-md-5">
-              <img
-                src="img/dateplan.webp"
-                alt=""
-                className="img-fluid  ms-sm-auto m-sm-auto d-block  mb-3"
-              />
-            </div>
-            <div className="col-md-6 p-md-5">
-              <p>HUMANHOOD OFFICIA</p>
-              <h1>2024 Dated Planner - Garden of Dreams</h1>
-              <p>Regular priceRs. 1,499.00 Sale priceRs. 1,125.00</p>
-              <p>Shipping calculated at checkout.</p>
-              <p>Quantity</p>
-
-              <div class="btn-group btn-sm" role="group" aria-label="Basic example">
-                <button
-                  type="button"
-                  class="btn  me-2 btn-outline-light text-black border-1 border-black  "
-                >
-                  -
-                </button>
-                <h1>1</h1>
-                <button
-                  type="button"
-                  class="btn ms-2 btn-outline-light text-black border-1 border-black"
-                >
-                  +
-                </button>
-              </div>
-              <br />
-              <button className="btn btn-success mt-2">Add to Cart</button> <br />
-              <button className="btn btn-success mt-2">Buy it Now</button>
-
-              <div className="share-detail d-flex  justify-content-between ">
-                <a href="" className="nav-link">Share</a>
-                <a href="" className="nav-link">View details</a>
-              </div>
-            </div>
+     <section>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <Sliders/>
           </div>
         </div>
-      </section>
-      <br />
-      <br />
-      <section>
+      </div>
+     </section>
+ <br />
+
+ <br />
+     <section className="mb-4">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6  ">
+          <div className="row mb-5">
+            <div className="col-md-6 pe-md-0">
               <img
                 src="img/affirm.webp"
                 alt=""
-                className="img-fluid d-block  ms-auto w-75   "
+                className="hero-section1-img"
               />
             </div>
+            <div className="col-md-6 ps-0">
+              <div className=" hero-section1 p-lg-5 p-3">
+                <h1 className="text-906 mb-3 pe-3">
+                  Humanhood x Bodh Gem & Crystals
+                </h1>
+                <p className="lh-lg text-906 mb-4 fs-sand">
+                  When affirmations come together with crystals that have
+                  grounding and abundant energies; your goals will amplify and
+                  come to life. Manifest your dream year with this hamper and
+                  start your manifestation journey now.
+                </p>
+                <a className="btn bg-906" href="/">
+                  SHOP NEW YEAR ENERGY HAMPER
+                </a>
+              </div>
+            </div>
+          </div>
 
-            <div className="col-md-6">
-              <h1>Humanhood x Bodh Gem & Crystals</h1>
-              <p>
-                When affirmations come together with crystals that have
-                grounding and abundant energies; your goals will amplify and
-                come to life. Manifest your dream year with this hamper and
-                start your manifestation journey now.
-              </p>
-              <button className="btn btn-success ">
-                SHOP NEW YEAR ENERGY HAMPER
-              </button>
+          <div className="row">
+            <div className="col-8 mx-auto">
+
+           
+            <a href="/">
+              <img
+                src="img/smallstep1.webp"
+                alt=""
+                className="img-fluid"
+              />
+            </a>
             </div>
           </div>
         </div>
       </section>
+     
+     
     </div>
   );
 }
