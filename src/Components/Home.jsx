@@ -120,7 +120,7 @@ export default function Home() {
                 </center>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4">
               <div>
                 <img
                   src="img/affirmhamp.webp"
@@ -148,14 +148,14 @@ export default function Home() {
       <section className="Giftcard-bg mb-4 text-906 fs-sand">
         <div className="container py-5 ">
           <div className="row ">
-            <div className="col-lg-6 mb-4 mb-md-0">
+            <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
               <img
                 src="img/giftcard.webp"
                 alt=""
                 className="img-fluid"
               />
             </div>
-            <div className="col-lg-6 px-lg-5 ">
+            <div className="col-lg-6  col-md-6 px-lg-5 ">
               <h1 className="mb-4">Humanhood Gift Card</h1>
               <p className="fs-4 m-0">Rs. 1500.00</p>
 
@@ -209,7 +209,7 @@ export default function Home() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    className="lucide lucide-arrow-up-from-line pe-2"
+                    className="lucide lucide-arrow-up-from-line  pe-2"
                   >
                     <path d="m18 9-6-6-6 6" />
                     <path d="M12 3v14" />
@@ -217,7 +217,7 @@ export default function Home() {
                   </svg>
                   Share
                 </a>
-                <a href="" className="text-906">
+                <a href="" className="text-906  ">
                   View full details
                   <i className="fa-solid fa-arrow-right ps-2"></i>
                 </a>
